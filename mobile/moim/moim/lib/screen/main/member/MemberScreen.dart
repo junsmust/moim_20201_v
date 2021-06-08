@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:moim/component/BaseText.dart';
 
 class MemberScreen extends StatefulWidget {
   @override
@@ -9,7 +10,7 @@ class _MemberScreenState extends State<MemberScreen> {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: Text("MemberScreen"),
+      child: BaseText("MemberScreen" , fontSize: FontSize.large25,),
     );
   }
 }
