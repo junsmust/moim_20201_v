@@ -8,6 +8,8 @@ class VoteScreen extends StatefulWidget {
 class _VoteScreenState extends State<VoteScreen> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Center(
+      child: Text("VoteScreen"),
+    );
   }
 }
