@@ -10,7 +10,7 @@ class _MemberScreenState extends State<MemberScreen> {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: BaseText("MemberScreen" , fontSize: FontSize.large25,),
+      child: BaseText.DefaultText("MemberScreen").createText(),
     );
   }
 }
